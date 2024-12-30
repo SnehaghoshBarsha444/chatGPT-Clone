@@ -1,146 +1,134 @@
-# ChatGPT
-This clone is made with MERN and uses OpenAI API.
+### IsopodTechGPT 
 
-This project is clone of chatGPT , chatGPT is an AI . It's allows you to have human-like conversations.
+**IsopodTechGPT** is an advanced, all-rounder AI chatbot designed to handle a wide range of tasks with precision, intelligence, and adaptability. Built to empower users in everyday activities, technical tasks, and creative endeavors, it leverages state-of-the-art AI to deliver seamless assistance across various domains.  
+
+---
+
+## 📌 **Overview**  
+
+This website is designed to:  
+- Highlight Sneha's professional journey and technical skills.  
+- Showcase projects and contributions in technology and design.  
+- Serve as a platform for collaboration and inspiration within the tech community.  
+
+### **Key Features**  
+
+- **Dynamic Portfolio**: Comprehensive collection of projects, including AI-driven solutions, web designs, and hackathon highlights.  
+- **Interactive Design**: Developed with modern technologies for an immersive and responsive user experience.  
+- **SEO-Optimized**: Built with Next.js to ensure fast, optimized, and scalable web performance.  
+- **Personal Insights**: Includes Sneha's vision, skills, and dedication to innovation and education.  
+
+---
+
+## 🛠 **Technologies Used**  
+
+| **Category**    | **Technologies**       |  
+|------------------|------------------------|  
+| **Framework**    | Next.js               |  
+| **Frontend**     | HTML, CSS, JavaScript |  
+| **Graphics/3D**  | three.js              |  
+| **Hosting**      | Vercel                |  
+
+---
+
+## 🚀 **Getting Started**  
+
+1. Visit the live website: [IsopodTechGPT](https://isopodtechgpt.vercel.app/)  
+2. Explore the portfolio to discover projects and skills.  
+3. Connect with Sneha via the contact section for potential collaborations or discussions.  
+
+### **Local Development**  
+
+To run this project locally:  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-repo-link
+   ```  
+2. Navigate to the project directory:  
+   ```bash
+   cd isopodtechgpt  
+   ```  
+3. Install dependencies:  
+   ```bash
+   npm install  
+   ```  
+4. Run the development server:  
+   ```bash
+   npm run dev  
+   ```  
+5. Open `http://localhost:3000` in your browser to view the project.  
+
+---
+
+## 💡 **Vision**  
+
+At **IsopodTechGPT**, Sneha combines creativity with technology to:  
+- Build solutions that are innovative and user-centric.  
+- Inspire learning and collaboration in tech communities.  
+- Share knowledge and contribute to impactful projects in education, healthcare, and beyond.  
+
+---
+
+## 🤝 **Contributions & Feedback**  
+
+Contributions, feedback, and suggestions are highly encouraged to enhance the website. If you'd like to contribute:  
+1. Fork the repository.  
+2. Make your changes.  
+3. Submit a pull request for review.  
+
+---
+
+## 📬 **Contact Information**  
+
+For inquiries or collaboration opportunities, connect via: 
+- **Email**: [Contact Me](mailto:miss.webdesigner0013@gmail.com)
+- **GitHub**: [GitHub Profile](https://github.com/SnehaghoshBarsha444)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/sneha-ghosh-technical-isopod075/)
+- **Twitter**: [@IsopodTechnical](https://x.com/IsopodTechnical)  
+- **Medium**: [Medium Profile](https://medium.com/@Technical_Isopod_075)
+
+---
+
+### **License**  
+
+This project is licensed under the [MIT License](LICENSE).  
+
+---
+
+**Crafted with precision and passion using Next.js by [Sneha Ghosh](https://snehaghosh-technical-isopod-portfolio.vercel.app/)**
+
+<p align="center">
+  An Open-Source AI Chatbot Template Built With Next.js and the AI SDK by Vercel.
+</p>
+<br/>
 
 ## Features
 
-- PWA
-- Offline
-- Password login
-- Forgot password
-- Google login & signup
-- Chat 
-- Auto chat save
-- History Save
-- Account delete option
-- Light & Dark mode
-- Responsive Design
+- [Next.js](https://nextjs.org) App Router
+  - Advanced routing for seamless navigation and performance
+  - React Server Components (RSCs) and Server Actions for server-side rendering and increased performance
+- [AI SDK](https://sdk.vercel.ai/docs)
+  - Unified API for generating text, structured objects, and tool calls with LLMs
+  - Hooks for building dynamic chat and generative user interfaces
+  - Supports OpenAI (default), Anthropic, Cohere, and other model providers
+- [shadcn/ui](https://ui.shadcn.com)
+  - Styling with [Tailwind CSS](https://tailwindcss.com)
+  - Component primitives from [Radix UI](https://radix-ui.com) for accessibility and flexibility
+- Data Persistence
+  - [Vercel Postgres powered by Neon](https://vercel.com/storage/postgres) for saving chat history and user data
+  - [Vercel Blob](https://vercel.com/storage/blob) for efficient file storage
+- [NextAuth.js](https://github.com/nextauthjs/next-auth)
+  - Simple and secure authentication
 
-## Prerequisites
+## Model Providers
 
-- get your api key from https://openai.com/api/
+This template ships with OpenAI `gpt-4o` as the default. However, with the [AI SDK](https://sdk.vercel.ai/docs), you can switch LLM providers to [OpenAI](https://openai.com), [Anthropic](https://anthropic.com), [Cohere](https://cohere.com/), and [many more](https://sdk.vercel.ai/providers/ai-sdk-providers) with just a few lines of code.
 
-Make sure you have installed all of the following prerequisites on your development machine:
 
-- Node Js & Npm [Download and Install](https://nodejs.org/en)
-- MongoDB [Download and Install](https://www.mongodb.com/docs/manual/installation/)
-- Git [Download and Install](https://git-scm.com/downloads)
-
-## Technology Used
-
-#vite #reactjs #scss #redux-toolkit
-
-#nodejs #expressjs #mongodb #jsonwebtoken authentication 
-
-#javascript
-
-#openai #chatgpt
-
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file in server directory
-
-`PORT` = `5000`
-
-`MONGO_URL`
-
-`SITE_URL`
-
-`JWT_PRIVATE_KEY`
-
-`OPENAI_API_KEY`
-
-`OPENAI_ORGANIZATION`
-
-`MAIL_EMAIL`
-
-`MAIL_SECRET`
-
-To run this project, you will need to add the following environment variables to your .env.local file in client directory
-
-`VITE_CLIENT_ID` #Google login api client id
-
-## Run Locally
-
-Clone the project
 
 ```bash
-  git clone https://github.com/ansonbenny/ChatGPT.git
+pnpm install
+pnpm dev
 ```
 
-##To Start BackEnd
-
-Go to the server directory
-
-```bash
-  cd ChatGPT/server
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start
-
-```bash
-  npm start
-```
-
-##To Start FrontEnd
-
-Go to the client directory
-
-```bash
-  cd ChatGPT/client
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start
-
-```bash
-  npm run dev
-```
-
-
-## Demo
-
-[Live](https://chatgpt-8z57.onrender.com)
-
-https://user-images.githubusercontent.com/94070164/236692494-a50edafc-7864-439a-9cb3-fa112abc00a6.mp4
-
-![Screenshot_2023-04-28_12-45-28](https://user-images.githubusercontent.com/94070164/236693044-a4884b84-a058-46ba-ae50-0f9b50f92f02.png)
-
-![Screenshot_2023-04-28_12-45-42](https://user-images.githubusercontent.com/94070164/236693067-fdf687ce-fafc-495b-9b1e-ad19ae18a339.png)
-
-![Screenshot_2023-04-28_12-45-55](https://user-images.githubusercontent.com/94070164/236693075-429a387d-91d8-495a-afe4-84201ad43ef2.png)
-
-![auth](https://user-images.githubusercontent.com/94070164/236693311-13089e93-3b50-4187-8203-b122a7016b71.png)
-
-![login](https://user-images.githubusercontent.com/94070164/236693346-08e08ae2-c265-4743-b9f6-e4899c4168bb.png)
-
-![login2](https://user-images.githubusercontent.com/94070164/236693355-f976a480-8a98-4b2b-92d0-542bdd03957c.png)
-
-![forgot](https://user-images.githubusercontent.com/94070164/236693362-ceff0f29-d7bd-4787-9445-df65b00650ff.png)
-
-![reg](https://user-images.githubusercontent.com/94070164/236693371-97fe8ed6-f33b-4f4e-a195-8ef4d0f8b78f.png)
-
-![reg2](https://user-images.githubusercontent.com/94070164/236693378-dba41424-ca47-4b57-861f-508d8c3b8f5b.png)
-
-![offline](https://user-images.githubusercontent.com/94070164/236693384-d3c86f92-b773-46e4-823c-79c26004737d.png)
-
-![Screenshot_2023-04-28_19-28-07](https://user-images.githubusercontent.com/94070164/236693084-8e6df9e7-9e12-427d-a63f-1123145e50f8.png)
-
-![app](https://user-images.githubusercontent.com/94070164/236693396-32687dc4-cf32-45a8-8e93-5a1e9fefa1c1.png)
-
-
-
-## 🔗 Links
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anson-benny-502961238/)
+Your app template should now be running on [localhost:3000](http://localhost:3000/).
